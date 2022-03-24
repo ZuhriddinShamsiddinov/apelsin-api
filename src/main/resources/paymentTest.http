@@ -1,0 +1,17 @@
+GET http://localhost:80/api/payment
+
+###
+GET http://localhost:80/api/payment/1
+
+###
+POST http://localhost:80/api/payment
+Content-Type: application/json
+
+{
+  "amount": 100000,
+  "invoiceId": "f5262346-090c-4494-9a1c-dad7edd20f19"
+}
+
+
+###
+DELETE http://localhost:80/api/payment/1

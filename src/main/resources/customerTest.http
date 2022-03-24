@@ -1,0 +1,29 @@
+GET http://localhost:80/api/customer
+
+###
+GET http://localhost:80/api/customer/1
+
+###
+POST http://localhost:80/api/customer
+Content-Type: application/json
+
+{
+  "name": "ZOR",
+  "country": "OK",
+  "address": "VAPSHE 12",
+  "phone": "+09876567890"
+}
+
+###
+PUT http://localhost:80/api/customer/3
+Content-Type: application/json
+
+{
+  "name": "Basharoc",
+  "country": "YUZ",
+  "address": "HOKIZ",
+  "phone": "+123456789"
+}
+
+###
+DELETE http://localhost:80/api/customer/3

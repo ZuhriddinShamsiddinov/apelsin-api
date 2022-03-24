@@ -1,0 +1,31 @@
+GET http://localhost:80/api/expired_invoices
+
+###
+GET http://localhost:80/api/wrong_date_invoices
+
+###
+GET http://localhost:80/api/orders_without_details
+
+###
+GET http://localhost:80/api/customers_without_orders
+
+###
+GET http://localhost:80/api/customers_last_orders
+
+###
+GET http://localhost:80/api/overpaid_invoices
+
+###
+GET http://localhost:80/api/overpaid_invoices
+
+###
+GET http://localhost:80/api/high_demand_products
+
+###
+GET http://localhost:80/api/bulk_products
+
+###
+GET http://localhost:80/api/number_of_products_in_year
+
+###
+GET http://localhost:80/api/orders_without_invoices

@@ -1,0 +1,22 @@
+GET http://localhost:80/api/order
+
+###
+GET http://localhost:80/api/order/15
+
+###
+POST http://localhost:80/api/order
+Content-Type: application/json
+
+{
+  "customerId": 3,
+  "detailDTOList": [
+    {
+      "quantity": 8,
+      "productId": 2
+    }
+  ]
+}
+
+
+###
+DELETE http://localhost:80/api/order/2

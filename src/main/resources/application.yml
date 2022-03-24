@@ -1,0 +1,16 @@
+server:
+  port: 80
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/apelsin_app
+    username: postgres
+    password: qwerty123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+

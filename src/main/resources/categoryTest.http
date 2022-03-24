@@ -1,0 +1,23 @@
+GET http://localhost:80/api/category
+
+###
+GET http://localhost:80/api/category/3
+
+###
+POST http://localhost:80/api/category
+Content-Type: application/json
+
+{
+  "name": "CAKE"
+}
+
+###
+PUT http://localhost:80/api/category/3
+Content-Type: application/json
+
+{
+  "name": "Chechak"
+}
+
+###
+DELETE http://localhost:80/api/category/3

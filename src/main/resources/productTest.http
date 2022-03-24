@@ -1,0 +1,31 @@
+GET http://localhost:80/api/product
+
+###
+GET http://localhost:80/api/product/2
+
+###
+POST http://localhost:80/api/product
+Content-Type: application/json
+
+{
+  "name": "OSH",
+  "description": "MOSHNI ",
+  "price": 50000,
+  "photo": "osh.jpg",
+  "categoryId": 2
+}
+
+###
+PUT http://localhost:80/api/product/2
+Content-Type: application/json
+
+{
+  "name": "UKAM",
+  "description": "BRAT ",
+  "price": 100,
+  "photo": "AKA_UKA.jpg",
+  "categoryId": 2
+}
+
+###
+DELETE http://localhost:80/api/product/7
